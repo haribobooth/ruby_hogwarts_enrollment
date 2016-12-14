@@ -1,0 +1,10 @@
+<h1>Hogwarts Student</h1>
+
+<% for student in @students  %>
+<p>First Name: <%= student.first_name %></p>
+<p>Last Name: <%= student.last_name %></p>
+<p>Age: <%= student.age%></p>
+<p>House: <%= student.house%></p>
+<a href="/students/<%=student.id%>">Student Information</a>
+<hr>
+<% end %>
