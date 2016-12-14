@@ -2,8 +2,9 @@
 <p>first name: <%= @student.first_name%></p>
 <p>first last: <%= @student.last_name%></p>
 <p>age: <%= @student.age%></p>
-<p>first house: <%= @student.house%></p>
+<p>house: <%= @student.house_name%></p>
+<img src="<%=@student.house_logo%>">
 
-<a href="/students/<%=@student.id%>/edit">Edit Student Information</a>
+<form id="expel" action='/students/<%=@student.id%>/delete' method="post"><input type="submit" value="Expel Student"></form>
 
-<form action='/students/<%=@student.id%>/delete' method="post"><input type="submit" value="Expel Student"></form>
+<a id="edit_student" href="/students/<%=@student.id%>/edit">Edit Student Information</a>

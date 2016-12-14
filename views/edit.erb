@@ -18,18 +18,18 @@
 
 <label>
   House:
-  <select name="house">
+  <select id="house_drop" name="house">
     <option 
-      <%= "selected" if @student.house == "Gryffindor" %>
+      <%= "selected" if @student.house_name == "Gryffindor" %>
     value="Gryffindor">Gryffindor</option>    
     <option
-      <%= "selected" if @student.house == "Slytherin" %>
+      <%= "selected" if @student.house_name == "Slytherin" %>
      value="Slytherin">Slytherin</option>    
     <option 
-      <%= "selected" if @student.house == "Hufflepuff" %>
+      <%= "selected" if @student.house_name == "Hufflepuff" %>
     value="Hufflepuff">Hufflepuff</option>    
     <option 
-      <%= "selected" if @student.house == "Ravenclaw" %>
+      <%= "selected" if @student.house_name == "Ravenclaw" %>
     value="Ravenclaw">Ravenclaw</option>    
   </select>
 

@@ -1,0 +1,100 @@
+* {
+  text-align: center;
+  margin: auto;
+  font-family: serif;
+  color: ivory;
+}
+
+body {
+  background-image: url(http://i.imgur.com/I7pG87M.jpg);
+
+}
+
+h1 {
+  margin: 10px 0px 10px 0px 
+}
+
+p {
+  margin: 5px 0px 5px 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #666654;
+  background-color: #CCCCB9;
+  padding: 4px;
+  border-radius: 8%
+}
+
+a:hover {
+  background-color: #BBBBA8
+}
+
+#index_container {
+  width: 40%;
+}
+
+hr {
+  margin: 10px 0px 5px 0px;
+}
+
+ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0px;
+  background-color: rgba(255,255,240,0.6);
+  height: 40px;
+}
+
+ul li {
+  display: inline-block;
+  margin: 11px 0px 11px 0px;
+
+}
+
+ul li a {
+  background-color: #CCCCB9;
+  padding: 8px;
+}
+
+
+input {
+  color: black;
+}
+
+input[type=submit] {
+  display: block;
+  margin-top: 8px;
+}
+
+input[type=text] {
+  margin: 5px 10px 5px 0px;
+  text-align: left
+}
+
+input[type=number] {
+  margin: 5px 10px 5px 0px;
+  text-align: left
+}
+
+select {
+  color: black;
+}
+
+#edit_student {
+  margin-top: 10px;
+  margin-bottom: 20px
+}
+
+#expel {
+  margin-top: 10px;
+  margin-bottom: 20px
+}
+
+img {
+  border-radius: 5%;
+}
+
+#house_drop {
+  width: 150px;
+}

@@ -2,6 +2,7 @@ require('sinatra')
 require('sinatra/contrib/all')
 require('pry')
 require_relative('./models/student')
+require_relative('./models/house')
 
 #index students
 get('/students') do
@@ -46,3 +47,5 @@ post('/students/:id') do
   Student.update(params)
   redirect to("/students/#{params[:id]}")
 end
+
+
