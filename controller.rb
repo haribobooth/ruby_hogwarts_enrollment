@@ -30,6 +30,10 @@ end
 
 #DESTROY student
 
+post('/students/:id/delete') do
+  Student.destroy(params[:id])
+  redirect to("/students")
+end
 
 #edit student form
 get('/students/:id/edit') do

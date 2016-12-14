@@ -5,3 +5,5 @@
 <p>first house: <%= @student.house%></p>
 
 <a href="/students/<%=@student.id%>/edit">Edit Student Information</a>
+
+<form action='/students/<%=@student.id%>/delete' method="post"><input type="submit" value="Expel Student"></form>
